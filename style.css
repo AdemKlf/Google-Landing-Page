@@ -1,0 +1,21 @@
+nav{
+    display: block;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+.left{
+    float: left;
+    opacity: 0.8;
+}
+.right{
+    float: right;
+    margin-right: 25px;
+}
+#google{
+    width: 270px;
+    margin: 200px auto auto auto;
+    display: block;
+    
+}
