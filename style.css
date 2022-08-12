@@ -1,5 +1,6 @@
 nav{
     display: block;
+    border: 2px solid blue;
 }
 body{
     margin: 0;
@@ -15,7 +16,11 @@ body{
 }
 #google{
     width: 270px;
-    margin: 200px auto auto auto;
+    height: 95px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
+    border: 2px solid red;
     
 }
