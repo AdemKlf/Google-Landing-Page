@@ -1,18 +1,36 @@
 nav{
-    display: block;
+    display: relative;
     border: 2px solid blue;
+    
+}
+nav a{
+    /* text-decoration: none; */
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    font-size: 13px;
 }
 body{
     margin: 0;
     width: 100%;
+    white-space: nowrap;
 }
 .left{
+    /* text-align: left; */
+    /* float: inssline-start; */
+    /* width: 250px;
+    display: block; */
     float: left;
-    opacity: 0.8;
+    /* display:inline-block; */
+
 }
 .right{
     float: right;
-    margin-right: 25px;
+    /* display: inline-block; */
+    /* display: block; */
+    /* text-align: right; */
+    /* float: right; */
+    /* margin-right: 25px;
+    width: 250px; */
 }
 #google{
     width: 270px;
@@ -22,5 +40,18 @@ body{
     margin-right: auto;
     display: block;
     border: 2px solid red;
+    background-color: orange;
     
+}
+header {
+    /* background-color: blue; */
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border: 2px solid red;
+    
+    
+
 }
