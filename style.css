@@ -51,7 +51,35 @@ header {
     padding-right: 15px;
     padding-top: 15px;
     border: 2px solid red;
-    
-    
+}
 
+.clear{
+    content: "";
+    display: block;
+    clear: both;
+}
+#signid{;
+  width: 70px;
+  height: 30px;
+  background-color: #4285f4;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor:pointer;
+}
+.searcclass{
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 60px;
+  border: 2px solid blue;
+}
+#searc{
+  font-size: 15px;
+  height: 35px;
+  width: 450px;
+  border-radius: 25px;
+  padding:  3px;
+  border: 1px solid lightgray;
+  padding-left: 50px;
 }
