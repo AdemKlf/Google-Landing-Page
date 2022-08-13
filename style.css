@@ -83,3 +83,7 @@ header {
   border: 1px solid lightgray;
   padding-left: 50px;
 }
+#appicon{
+    vertical-align:middle;
+    opacity: 0.5;
+}
