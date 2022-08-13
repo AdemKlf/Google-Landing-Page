@@ -1,103 +1,178 @@
-nav{
-    display: relative;
-    border: 2px solid blue;
-    
-}
-nav a{
-    /* text-decoration: none; */
-    margin-left: 0.75em;
-    margin-right: 0.75em;
-    font-size: 13px;
-}
-body{
+*{
     margin: 0;
-    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
     white-space: nowrap;
-}
-.left{
-    /* text-align: left; */
-    /* float: inssline-start; */
-    /* width: 250px;
-    display: block; */
-    float: left;
-    /* display:inline-block; */
-
-}
-.right{
-    float: right;
-    /* display: inline-block; */
-    /* display: block; */
-    /* text-align: right; */
-    /* float: right; */
-    /* margin-right: 25px;
-    width: 250px; */
-}
-#google{
-    width: 270px;
-    height: 95px;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 2px solid red;
-    background-color: orange;
+    
     
 }
 header {
-    /* background-color: blue; */
     display: block;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
-    border: 2px solid red;
+    font-size: 13px;
+    /* border: 2px solid red; */
+}
+nav{
+    display: block;
+    /* border: 2px solid blue; */
+}
+div{
+    display: block;
+}
+.left{
+    float: left;
+    opacity: 0.8;
+}
+.right{
+    float: right;
+    margin-right: 25px; 
 }
 
+nav a{
+    text-decoration: none;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    font-size: 13px;
+}
+/* body{
+    margin: 0;
+    width: 100%;
+    white-space: nowrap;
+} */
+.Header-link{
+    color: black;
+}
+#appicon{
+    vertical-align:middle;
+    opacity: 0.5;
+}
+#signid{
+    color: white;
+    width: 70px;
+    height: 30px;
+    background-color: #4285f4;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    cursor:pointer;
+}
+#google{
+    width: 272px;
+    height: 95px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* background-color: orange; */
+}
+.searchclass{
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 60px;
+  /*   border: 2px solid blue; */
+}
+#search{
+    font-size: 16px;
+    height: 38px;
+    width: 460px;
+    border-radius: 25px;
+    padding:  3px;
+    border: 1px solid lightgray;
+    padding-left: 50px;
+}
+#magnifying{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 460px;
+    top: 10px;
+}
+#microphone{
+    height: 30px;
+    width: 15px;
+    position: relative;
+    right: 74px;
+    height: 20px;
+    top: 5px;
+}
+.btn-container{
+    padding-top: 30px;
+    text-align: center;
+    
+    
+}
+#button1{
+    width: 120px;
+    height: 36px;
+    margin-right: 8px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+    cursor:pointer;
+}
+#button2{
+    width: 140px;
+    height: 36px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+    cursor:pointer;
+}
+#language{
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+}
+#language a {
+    color: navy;
+}
 .clear{
     content: "";
     display: block;
     clear: both;
 }
-#signid{;
-  width: 70px;
-  height: 30px;
-  background-color: #4285f4;
-  border-radius: 2px;
-  border: none;
-  color: white;
-  font-weight: bold;
-  cursor:pointer;
+footer {
+    width: 100%;
+    padding-left: 5px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    display: block;
 }
+.country{
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 13px;
+}
+
 .searcclass{
   text-align: center;
   padding-top: 20px;
   margin-left: 60px;
 /*   border: 2px solid blue; */
 }
-#search{
-  font-size: 15px;
-  height: 35px;
-  width: 450px;
-  border-radius: 25px;
-  padding:  3px;
-  border: 1px solid lightgray;
-  padding-left: 50px;
+.footer-links {
+    color: #5f6368;
 }
-#appicon{
-    vertical-align:middle;
-    opacity: 0.5;
-}
+
 .left-footer{
     float: left;
 }
 .right-footer{
     float: right;
+    margin-right: 25px;
 }
 #search:hover{
   box-shadow: 1px 2px lightgray;
-/*   border: 1px solid gray; */
-<<<<<<< HEAD
 }
-=======
+#button1:hover{
+    box-shadow: 1px 2px lightgray;
 }
->>>>>>> ff587265d3ee68452ecc5a0f04eb523b5f306ff7
+#button2:hover{
+    box-shadow: 1px 2px lightgray;
+}
