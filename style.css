@@ -87,3 +87,9 @@ header {
     vertical-align:middle;
     opacity: 0.5;
 }
+.left-footer{
+    float: left;
+}
+.right-footer{
+    float: right;
+}
