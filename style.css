@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    white-space: nowrap;
-    
-    
+    white-space: nowrap; 
 }
 header {
     display: block;
@@ -101,9 +99,7 @@ nav a{
 }
 .btn-container{
     padding-top: 30px;
-    text-align: center;
-    
-    
+    text-align: center; 
 }
 #button1{
     width: 120px;
